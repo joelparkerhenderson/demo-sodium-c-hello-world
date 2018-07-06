@@ -11,12 +11,14 @@ Demonstration of:
 
 Visit https://download.libsodium.org/libsodium/releases/
 
-We choose the most-recent stable version, which is `libsodium-stable-2018-07-05.tar.gz`
+We prefer getting the latest version.
 
 Download:
 
 ```sh
-curl -O https://download.libsodium.org/libsodium/releases/libsodium-stable-2018-07-05.tar.gz 
+curl -O https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
+tar xvzf LATEST.tar.gz
+cd libsodium-stable
 ```
 
 Install:
