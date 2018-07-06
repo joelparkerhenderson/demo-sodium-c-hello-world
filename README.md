@@ -79,7 +79,7 @@ unsigned char buf[buf_len];
 randombytes_buf(buf, buf_len);
 ```
 
-## Format bytes as a hexadecimal string.
+## Format a hexadecimal string
 
 The `sodium_bin2hex()` function converts a byte array into a hexadecimal string with a nul byte (\0) terminator.
 
