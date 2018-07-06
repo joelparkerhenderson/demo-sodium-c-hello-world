@@ -84,8 +84,8 @@ randombytes_buf(buf, buf_len);
 The `sodium_bin2hex()` function converts a byte array into a hexadecimal string with a nul byte (\0) terminator.
 
 ```c
-unsigned int hex_str_len = buf_len * 2 + 1;
-char hex_str[hex_str_len];
-sodium_bin2hex(hex_str, hex_str_len, buf, buf_len);
-puts(hex_str);
+unsigned int hex_len = buf_len * 2 + 1;
+char hex[hex_len];
+sodium_bin2hex(hex, hex_len, buf, buf_len);
+puts(hex);
 ```
